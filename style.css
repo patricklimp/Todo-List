@@ -1,0 +1,72 @@
+:root {
+    --color-primaria: #950101;
+    --color-secundaria: #ccc;
+    --color-terciaria: #FFFFFF;
+    --color-quarternaria: #3D0000;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    background-color: var(--color-primaria);
+    padding: 2.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.0625rem solid var(--color-secundaria); 
+    border-radius: 0.6125rem; 
+    color: var(--color-terciaria);
+    
+}
+
+.container-login{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.9375rem;
+}
+
+.container-login label {
+    margin-right: 0.625rem; 
+    width: 3.125rem; 
+}
+
+
+.container-login input {
+        padding: 0.3125rem; 
+        border: 0.0625rem solid var(--color-secundaria); 
+        border-radius: 0.1875rem; 
+}
+
+.container-button {
+    max-width: 6.25rem;
+    margin-top: 0.625rem;
+    cursor: pointer;
+    
+}
+
+button {
+ color: var(--color-terciaria);
+ background-color: var(--color-quarternaria);
+ padding: 0.625rem;
+ border: 0.0625rem solid var(--color-secundaria); 
+ border-radius: 0.1875rem; 
+ cursor: zoom-in;
+}
+
+button.clicked {
+    transform: translateY(2px); /* Move o botão para baixo quando clicado */
+  }
