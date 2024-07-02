@@ -1,5 +1,5 @@
 :root {
-    --color-primaria: #950101;
+    --color-primaria: #d35454;
     --color-secundaria: #ccc;
     --color-terciaria: #FFFFFF;
     --color-quarternaria: #3D0000;
@@ -101,4 +101,10 @@ body{
 
 #btn-ok:hover{
     background-color: var(--color-quarternaria);
+}
+
+.completed {
+    background-color: green;
+    text-decoration: line-through;
+    border-radius: 16px;
 }
